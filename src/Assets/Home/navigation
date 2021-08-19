@@ -1,0 +1,17 @@
+  #navigation {
+    background-color: white;
+    box-shadow: none;
+    color: black;
+
+    .MuiToolbar-root {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      section {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+    }
+  }
