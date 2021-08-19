@@ -7,7 +7,7 @@ import MenuItems from "./Navigation/MenuItems";
 export default function Navigation() {
   return (
     <>
-      <AppBar position="static" id="navigation">
+      <AppBar position="sticky" id="navigation">
         <Toolbar>
           {/* logo */}
           <h1>OOMA</h1>
