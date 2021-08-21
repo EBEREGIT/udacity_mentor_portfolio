@@ -5,6 +5,7 @@ import GetApp from "../Components/Home/GetApp";
 import HeroSlider from "../Components/Home/HeroSlider";
 import Navigation from "../Components/Home/Navigation";
 import Quiz from "../Components/Home/Quiz";
+import Video from "../Components/Home/Video";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Different />
       <Quiz />
       <GetApp />
+      <Video />
     </div>
   );
 }
