@@ -1,0 +1,37 @@
+#different {
+    background-color: #F4FDF4;
+    text-align: center;
+    padding: 20px 0;
+
+    h2 {
+        font-family: $permanentMarker;
+        font-size: 56px;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .each_different {
+        padding: 20px;
+        letter-spacing: 0.02em;
+        font-family: $lato;
+        color: $site_black;
+
+        h4 {
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        p {
+            padding: 0 20px;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        section {
+            background-color: rgba(11, 102, 35, 0.5);
+            padding: 70px 10px;
+            margin: 0 100px;
+            border-radius: 50%;
+        }
+    }
+}

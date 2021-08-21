@@ -1,0 +1,33 @@
+#quiz {
+    margin: 50px 0;
+    font-family: $openSans;
+
+    h2 {
+        font-weight: 700;
+        font-size: 48px;
+        color: $site_black;
+        margin: 0;
+
+        span {
+            color: green;
+        }
+    }
+
+    #quiz_text {
+        margin: 100px 0;
+        text-align: center;
+    }
+
+    button {
+        background: #05944F;
+        border-radius: 5px;
+        color: white;
+        padding: 10px 20px;
+        margin-top: 50px;
+    }
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
