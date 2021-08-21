@@ -1,0 +1,38 @@
+.triangle {
+    position: relative;
+    background: #8098b1;
+    height: 0;
+    margin-top: 150px;
+}
+
+.triangle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 50px 50px;
+    border-color: black transparent black transparent;
+    border-radius: 50px;
+    left: 45%;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+    button {
+        color: white;
+    }
+
+    #copy_right {
+        font-family: $lato;
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 0.02em;
+        color: #C4C4C4;
+        text-align: right;
+    }
+}

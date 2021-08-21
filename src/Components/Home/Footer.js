@@ -9,6 +9,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 export default function Footer() {
   return (
     <>
+      <section className="triangle"></section>
       <Grid container id="footer">
         {/* social_media */}
         <Grid item xs={12} sm={12} md={6} lg={6} id="social_media">
