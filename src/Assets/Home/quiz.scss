@@ -2,6 +2,19 @@
     margin: 50px 0;
     font-family: $openSans;
 
+    &::before {
+        position: absolute;
+        content: '';
+        z-index: -1;
+        width: 450px;
+        height: 450px;
+        left: -102px;
+        top: 2167px;
+        border-radius: 50%;
+        background: #F4FDF4;
+        background-blend-mode: darken;
+    }
+
     h2 {
         font-weight: 700;
         font-size: 48px;
