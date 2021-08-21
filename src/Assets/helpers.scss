@@ -1,5 +1,24 @@
+// fonts
 $lato: 'Lato', sans-serif;
 $poppins: 'Poppins', sans-serif;
 $permanentMarker: 'Permanent Marker', cursive;
 $openSans: 'Open Sans', sans-serif;
+
+// colors
 $site_black: #303030;
+$site_green: #05944F;
+
+.btn_green {
+    background: $site_green;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 50px;
+
+    &:hover {
+        background-color: white;
+        color: $site_green;
+        ;
+        border: 1px solid $site_green;
+    }
+}
