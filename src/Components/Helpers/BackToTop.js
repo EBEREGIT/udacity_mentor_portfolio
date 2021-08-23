@@ -29,7 +29,6 @@ export default function BackToTop() {
   return (
     <>
       <button
-        className="btn_green"
         onClick={() => topFunction()}
         id="back_to_top"
         title="Go to top"
