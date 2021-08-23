@@ -5,11 +5,11 @@
     #hero-slider {
         .each-slide {
             img {
-                height: 550px;
+                height: 600px;
             }
 
             #content {
-                height: 600px;
+                height: 650px;
 
                 #content_text {
                     margin-top: 100px;
@@ -132,6 +132,10 @@
             height: auto;
             width: 100%;
         }
+
+        #quiz_image{
+            text-align: center;
+        }
     }
 
     // gallery
@@ -160,6 +164,7 @@
 
     // get app
     #get_app {
+        text-align: center;
 
         h2 {
             font-size: 30px;
@@ -174,11 +179,14 @@
             padding-left: 10px;
             padding-right: 10px;
 
-
             .MuiListItemText-root {
                 span {
                     font-size: 18px;
                 }
+            }
+
+            .btn_green{
+                margin: 0;
             }
         }
     }

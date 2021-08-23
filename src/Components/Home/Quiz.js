@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import { Button } from "@material-ui/core";
+import { Button, Hidden } from "@material-ui/core";
 
 export default function Quiz() {
   return (
@@ -17,7 +17,9 @@ export default function Quiz() {
           </h2>
           <h2>now.</h2>
 
-          <Button className="btn_green">Take a Quiz</Button>
+          <Hidden smDown>
+            <Button className="btn_green">Take a Quiz</Button>
+          </Hidden>
         </Grid>
 
         <Grid item xs={12} sm={12} md={7} lg={7} id="quiz_image">
@@ -25,7 +27,13 @@ export default function Quiz() {
             src="https://pnglux.com/wp-content/uploads/2021/04/1617574435_Laptop-PNG-File-990x594.png"
             alt="laptop"
           />
+
+          
+        <Hidden mdUp>
+          <Button className="btn_green">Take a Quiz</Button>
+        </Hidden>
         </Grid>
+
       </Grid>
     </>
   );
