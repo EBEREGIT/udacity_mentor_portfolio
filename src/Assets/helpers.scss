@@ -22,3 +22,22 @@ $site_green: #05944F;
         border: 1px solid $site_green;
     }
 }
+
+#back_to_top {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: red; 
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+  
+  #back_to_top:hover {
+    background-color: #555;
+    color: white;
+  }
