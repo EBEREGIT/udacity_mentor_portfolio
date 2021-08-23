@@ -1,0 +1,29 @@
+#page_not_found {
+    h2 {
+        font-family: $permanentMarker;
+        font-size: 30px;
+        color: $site_green;
+    }
+
+    a {
+        color: $site_green;
+        font-weight: bold;
+    }
+
+    p {
+        margin-top: 0;
+        font-family: $poppins;
+    }
+
+    img {
+        width: 100%;
+        height: 400px;
+    }
+
+    #pnf_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

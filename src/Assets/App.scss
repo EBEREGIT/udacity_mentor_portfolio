@@ -1,3 +1,5 @@
+@import "./ResponsiveScreens/include_media.scss";
+
 html {
   scroll-behavior: smooth;
 }
@@ -27,33 +29,14 @@ body {
 
   @import "./WhatsApp.scss";
 
-  #page_not_found {
-    h2 {
-      font-family: $permanentMarker;
-      font-size: 30px;
-      color: $site_green;
-    }
+  @import "./page_not_found.scss";
 
-    a {
-      color: $site_green;
-      font-weight: bold;
-    }
+  // responsive 
+  @import "./ResponsiveScreens/phone.scss";
 
-    p {
-      margin-top: 0;
-      font-family: $poppins;
-    }
+  @import "./ResponsiveScreens/tab.scss";
 
-    img {
-      width: 100%;
-      height: 400px;
-    }
+  @import "./ResponsiveScreens/tab_lg.scss";
 
-    #pnf_text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-  }
+  @import "./ResponsiveScreens/desktop.scss";
 }

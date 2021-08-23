@@ -7,8 +7,6 @@ export default function Video() {
       <Grid container id="video">
         <Grid item xs={12} sm={12} md={12} lg={12}>
           <iframe
-            width="100%"
-            height="650px"
             src="https://www.youtube.com/embed/bV2sg6mmSH8"
             title="YouTube video player"
             frameborder="0"

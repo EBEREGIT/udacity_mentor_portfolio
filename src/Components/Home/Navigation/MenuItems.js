@@ -32,9 +32,13 @@ export default function MenuItems() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>About</MenuItem>
-        <MenuItem onClick={handleClose}>Subscribe</MenuItem>
-        <MenuItem onClick={handleClose}>Contact</MenuItem>
+        <MenuItem component="a" href="/#home_about">About</MenuItem>
+        <MenuItem component="a" href="/#different">Difference</MenuItem>
+        <MenuItem component="a" href="/#quiz">Take Quiz</MenuItem>
+        <MenuItem component="a" href="/#home_gallery">Gallery</MenuItem>
+        <MenuItem component="a" href="/#get_app">Get App</MenuItem>
+        <MenuItem component="a" href="/#video">Take Tour</MenuItem>
+        <MenuItem component="a" href="/#newsletter">Subscribe</MenuItem>
       </Menu>
     </div>
   );

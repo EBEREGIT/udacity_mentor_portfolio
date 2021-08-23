@@ -34,7 +34,7 @@ export default function BackToTop() {
         title="Go to top"
         style={{ display: state ? "block" : "none" }}
       >
-        <KeyboardArrowUpIcon style={{ fontSize: 40 }} />
+        <KeyboardArrowUpIcon />
       </button>
     </>
   );

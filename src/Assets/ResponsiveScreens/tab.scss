@@ -1,0 +1,255 @@
+@include media('>phone', '<=tablet') {
+    background-color: red !important;
+
+    // hero slider
+    #hero-slider {
+        .each-slide {
+            img {
+                height: 550px;
+            }
+
+            #content {
+                height: 600px;
+
+                #content_text {
+                    margin-top: 100px;
+                    text-align: center;
+
+                    h1 {
+                        font-size: 40px;
+                        margin-bottom: 50px;
+                    }
+
+                    p {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    // about 
+    #home_about {
+        padding: 20px 10px;
+
+        &::before {
+            width: 150px;
+            height: 150px;
+            top: -50px;
+            left: -5px;
+        }
+
+        &::after {
+            width: 150px;
+            height: 150px;
+            top: 450px;
+            left: 68
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        section {
+            margin-top: 35px;
+        }
+
+        li {
+            font-size: 18px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+        }
+    }
+
+    // different
+    #different {
+        padding: 50px 0;
+        margin: 50px 0;
+
+        border-top-left-radius: 50% 2.5%;
+        border-top-right-radius: 50% 2.5%;
+        border-bottom-left-radius: 50% 2.5%;
+        border-bottom-right-radius: 50% 2.5%;
+
+        h2 {
+            font-size: 30px;
+            margin: 0;
+        }
+
+        .each_different {
+            padding: 20px;
+
+            h4 {
+                font-size: 20px;
+                margin: 0;
+                padding: 0 50px;
+            }
+
+            p {
+                padding: 0 50px;
+                font-size: 15px;
+            }
+
+            section {
+                height: 70px;
+                width: 70px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    // quiz
+    #quiz {
+        margin: 25px 0;
+
+        &::before {
+            width: 200px;
+            height: 200px;
+            left: -30px;
+            top: 2350px;
+        }
+
+        h2 {
+            font-size: 24px;
+
+        }
+
+        #quiz_text {
+            margin: 50px 0;
+            text-align: center;
+        }
+
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    // gallery
+    #home_gallery {
+        padding: 25px 0;
+        text-align: left;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 50px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+
+        .swiper-slide {
+            width: 300px;
+            height: 350px;
+        }
+    }
+
+    // get app
+    #get_app {
+
+        h2 {
+            font-size: 30px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        #get_app_text {
+            padding-left: 10px;
+            padding-right: 10px;
+
+
+            .MuiListItemText-root {
+                span {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    // video
+    #video {
+        margin: 50px 0;
+
+        iframe {
+            width: 100%;
+            height: 500px;
+        }
+    }
+
+    // newsletter
+    #newsletter {
+
+        h2 {
+            font-size: 24px;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        #newsletter_form {
+            padding: 0 50px;
+
+            form {
+                margin-top: 30px;
+                text-align: center;
+
+                .MuiInputBase-root {
+                    margin-bottom: 20px;
+                }
+
+                .btn_green {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    // footer
+    .triangle::after {
+        left: 40%;
+    }
+    #footer {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+
+        #social_media{
+            padding: 20px 0;
+        }
+
+        #copy_right {
+            font-size: 18px;
+            text-align: center;
+            padding: 20px 0;
+        }
+    }
+
+    // bact to top
+    #back_to_top {
+    bottom: 50px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+}
