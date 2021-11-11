@@ -12,6 +12,8 @@ import BackToTop from "./Components/Helpers/BackToTop";
 import PageNotFound from "./Pages/PageNotFound";
 import Footer from "./Components/Home/Footer";
 import Navigation from "./Components/Home/Navigation";
+import TermsOfUse from "./Pages/TermsOfUse";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
 
 function App() {
   return (
@@ -19,8 +21,10 @@ function App() {
       <Navigation />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route exact path="/terms-of-use" component={TermsOfUse} />
+        <Route exact path="/privact-policy" component={PrivacyPolicy} />
 
-        <Route exact path="" component={PageNotFound} />
+        <Route exact path="*" component={PageNotFound} />
       </Switch>
 
       <Footer />
