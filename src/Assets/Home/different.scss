@@ -1,48 +1,36 @@
 #different {
-    background-color: #F4FDF4;
-    text-align: center;
-    padding: 100px 0 200px 0;
-    margin: 50px 0;
+  background-color: #f4fdf4;
+  text-align: center;
+  padding: 100px 0 200px 0;
+  margin: 50px 0;
 
-    border-top-left-radius: 50% 30%;
-    border-top-right-radius: 50% 30%;
-    border-bottom-left-radius: 50% 30%;
-    border-bottom-right-radius: 50% 30%;
+  border-top-left-radius: 50% 30%;
+  border-top-right-radius: 50% 30%;
+  border-bottom-left-radius: 50% 30%;
+  border-bottom-right-radius: 50% 30%;
 
-    h2 {
-        font-family: $permanentMarker;
-        font-size: 56px;
-        font-weight: 400;
-        margin: 0;
+  h2 {
+    font-family: $permanentMarker;
+    font-size: 56px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .each_different {
+    padding: 20px;
+    letter-spacing: 0.02em;
+    font-family: $lato;
+    color: $site_black;
+
+    h4 {
+      font-weight: 700;
+      font-size: 24px;
     }
 
-    .each_different {
-        padding: 20px;
-        letter-spacing: 0.02em;
-        font-family: $lato;
-        color: $site_black;
-
-        h4 {
-            font-weight: 700;
-            font-size: 24px;
-        }
-
-        p {
-            padding: 0 20px;
-            font-weight: 400;
-            font-size: 18px;
-        }
-
-        section {
-            background-color: rgba(11, 102, 35, 0.5);
-            margin: auto;
-            border-radius: 50%;
-            width: 40%;
-            height: 60%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+    p {
+      padding: 0 20px;
+      font-weight: 400;
+      font-size: 18px;
     }
+  }
 }

@@ -11,21 +11,25 @@ export default function Different() {
           <h2>makes us different?</h2>
         </Grid>
         <EachDifferent
+          src="https://res.cloudinary.com/byterestaurant/image/upload/v1636637815/ooma%20web/1_5_ylshts.png"
           heading="Meal plan customization"
           body="Select and schedule meals of choice, for yourself and others."
         />
 
         <EachDifferent
+          src="https://res.cloudinary.com/byterestaurant/image/upload/v1636638397/ooma%20web/1_6_sjnxcb.png"
           heading="Nutrition and health goal settings"
           body="Achieve more, have your desired body and improved nourishment."
         />
 
         <EachDifferent
+          src="https://res.cloudinary.com/byterestaurant/image/upload/v1636638394/ooma%20web/1_8_wxhrok.png"
           heading="Professional Health service"
           body="Talk to a registered Dietitian and get a personalized meal plan, based on your unique needs."
         />
 
         <EachDifferent
+          src="https://res.cloudinary.com/byterestaurant/image/upload/v1636638343/ooma%20web/1_7_qoqubi.png"
           heading="Safe and hygenic food"
           body="Enjoy hygenic food that provides the essential nourishment for healthy living."
         />

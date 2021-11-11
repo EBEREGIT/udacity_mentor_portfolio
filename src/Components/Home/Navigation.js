@@ -10,7 +10,7 @@ export default function Navigation() {
       <AppBar position="sticky" id="navigation">
         <Toolbar>
           {/* logo */}
-          <h1>OOMA</h1>
+          <h1><a href="/">OOMA</a></h1>
 
           {/* nav */}
           <section>
