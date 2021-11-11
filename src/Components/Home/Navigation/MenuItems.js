@@ -33,7 +33,7 @@ export default function MenuItems() {
         onClose={handleClose}
       >
         <MenuItem component="a" href="/terms-of-use">Terms of Service</MenuItem>
-        <MenuItem component="a" href="/privact-policy">Privacy Policy</MenuItem>
+        <MenuItem component="a" href="/privacy-policy">Privacy Policy</MenuItem>
       </Menu>
     </div>
   );

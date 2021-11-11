@@ -22,7 +22,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/terms-of-use" component={TermsOfUse} />
-        <Route exact path="/privact-policy" component={PrivacyPolicy} />
+        <Route exact path="/privacy-policy" component={PrivacyPolicy} />
 
         <Route exact path="*" component={PageNotFound} />
       </Switch>
