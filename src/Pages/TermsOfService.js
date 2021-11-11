@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function TermsOfUse() {
+export default function TermsOfService() {
   return (
     <div id="T_and_C">
-      <h1>Terms of Use</h1>
+      <h1>Terms of Service</h1>
 
       <iframe
         title="Terms of use"
