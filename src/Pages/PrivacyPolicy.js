@@ -7,9 +7,7 @@ export default function PrivacyPolicy() {
 
       <iframe
         title="Privacy Policy"
-        width="100%"
-        height="500px"
-        src="https://docs.google.com/document/d/e/2PACX-1vQqjo7coI6imjk6FIf39G9g7l2lUMHjYnPtN1jrfEfxU7YunHvycN1fW7zf6yQgkw/pub?embedded=true"
+        src="https://docs.google.com/document/d/e/2PACX-1vQNmQtQ46Qfb7OmgWZ3tUQ_Ad3Ickz-FpP5uq8W-AfjnMFv0YlvAi9wjPUIyNuNYg/pub?embedded=true"
       ></iframe>
     </div>
   );

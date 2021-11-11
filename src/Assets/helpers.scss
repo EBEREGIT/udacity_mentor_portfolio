@@ -42,8 +42,22 @@ $site_green: #05944f;
   background-color: #555;
 }
 
-#T_and_C{
-  h1{
+#T_and_C {
+  h1 {
     text-align: center;
+  }
+
+  iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: 500px;
+
+    .c13{
+      width: 100%;
+      max-width: 100% !important;
+      padding: 20px
+    }
   }
 }

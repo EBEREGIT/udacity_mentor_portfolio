@@ -7,9 +7,7 @@ export default function TermsOfUse() {
 
       <iframe
         title="Terms of use"
-        src="https://docs.google.com/document/d/e/2PACX-1vSiqx4PzrSZYKUGuewBRFjHUverq_tVLdECBEPWu2MIqsB0CeNn8gw98zLGSP_l0n6Remi5LvFYSezb/pub?embedded=true"
-        width="100%"
-        height="500px"
+        src="https://docs.google.com/document/d/e/2PACX-1vQ0H-rOAg42JozzbuJmK8vsdm_pf2g5Sm0FEniQxHntaai4rLUcnZ6OuDXiFAeyfQ/pub?embedded=true"
       ></iframe>
     </div>
   );
