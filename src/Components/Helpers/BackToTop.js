@@ -1,6 +1,5 @@
-import React from "react";
-import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
-import { useState } from "react";
+import React, { useState } from "react";
+import { HiArrowNarrowUp } from "react-icons/hi";
 
 export default function BackToTop() {
   const [state, setState] = useState(null);
@@ -34,7 +33,7 @@ export default function BackToTop() {
         title="Go to top"
         style={{ display: state ? "block" : "none" }}
       >
-        <KeyboardArrowUpIcon fontSize={"large"} />
+        <HiArrowNarrowUp />
       </button>
     </>
   );

@@ -18,7 +18,12 @@ export default function Quiz() {
           <h2>now.</h2>
 
           <Hidden smDown>
-            <Button className="btn_green">Take a Quiz</Button>
+            <Button
+              href="https://play.google.com/store/apps/details?id=com.oma1"
+              className="btn_green"
+            >
+              Get The App
+            </Button>
           </Hidden>
         </Grid>
 
@@ -28,12 +33,15 @@ export default function Quiz() {
             alt="Best Soup from Nigeria"
           />
 
-          
-        <Hidden mdUp>
-          <Button className="btn_green">Take a Quiz</Button>
-        </Hidden>
+          <Hidden mdUp>
+            <Button
+              href="https://play.google.com/store/apps/details?id=com.oma1"
+              className="btn_green"
+            >
+              Get The App
+            </Button>
+          </Hidden>
         </Grid>
-
       </Grid>
     </>
   );

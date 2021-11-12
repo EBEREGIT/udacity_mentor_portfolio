@@ -20,13 +20,17 @@ export default function EachHeroSlide(props) {
         <Grid container id="content_text">
           <Grid item xs={12} sm={12} md={6} lg={6}>
             <h1>Live Healthier</h1>
-            
             <p>Get a personalized meal plan,</p>{" "}
             <p>with unique recipes that fits your</p>
             <p>lifestyle.</p>
-
             {/* call to action button */}
-            <Button>TAKE A QUIZ</Button>
+            {/* <Button>TAKE A QUIZ</Button> */}
+            <Button
+              href="https://play.google.com/store/apps/details?id=com.oma1"
+              className="btn_green"
+            >
+              Get The App
+            </Button>
           </Grid>
         </Grid>
       </div>

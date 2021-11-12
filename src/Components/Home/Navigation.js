@@ -10,7 +10,16 @@ export default function Navigation() {
       <AppBar position="sticky" id="navigation">
         <Toolbar>
           {/* logo */}
-          <h1><a href="/">OOMA</a></h1>
+          <h1>
+            <a href="/">
+              <img
+                src="https://play-lh.googleusercontent.com/IqrjpOUFUeWIzSDh6CvMz1Ad-jSAri04-M6dftiIqcMSo4jwaSlYwSwUU8lJR3FrIUw=s360-rw"
+                alt="ooma logo"
+                width="50px"
+                height="50px"
+              />
+            </a>
+          </h1>
 
           {/* nav */}
           <section>
