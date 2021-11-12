@@ -20,8 +20,8 @@ export default function About() {
 
         <Grid item xs={12} sm={12} md={6} lg={6}>
           <img
-            src="https://post.healthline.com/wp-content/uploads/2020/08/tips-to-stop-mindless-eating-1200x628-facebook-1200x628.jpg"
-            alt="Eating"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/At_OOMA_Kitchen_lpipor.jpg"
+            alt="Slicing Vegetables By the kitchen staff"
           />
         </Grid>
       </Grid>

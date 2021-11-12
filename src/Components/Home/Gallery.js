@@ -1,5 +1,4 @@
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -51,66 +50,48 @@ export default function Gallery() {
       >
         <SwiperSlide>
           <img
-            src="https://swiperjs.com/demos/images/nature-1.jpg"
-            alt="vghjk"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/kitchen_2_r6inho.jpg"
+            alt="Kitchen Staff Slicing Vegetables"
           />
-          <p>Food is cooked with utmost care, by our professional chefs.</p>
+          <p>Kitchen Staff Slicing Vegetables.</p>
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://swiperjs.com/demos/images/nature-2.jpg"
-            alt="vghjk"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/Slider_1_kuxewd.jpg"
+            alt="Nkwobi in her right sense. Get a taste!"
           />
-          <p>Food is cooked with utmost care, by our professional chefs.</p>
+          <p>Nkwobi in her right sense. Get a taste!</p>
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://swiperjs.com/demos/images/nature-3.jpg"
-            alt="ghyjuki"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/App_Web_ibyaiq.png"
+            alt="Your Meal Now In Your Hands. Let's Plan It!"
           />
-          <p>Food is cooked with utmost care, by our professional chefs.</p>
+          <p>Your Meal Now In Your Hands. Let's Plan It!</p>
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://swiperjs.com/demos/images/nature-4.jpg"
-            alt="ghyjuki"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636654062/OOMA%20KITCHEN/Achieve_a_Healthier_Lifestyle_2_q3ko03.jpg"
+            alt="Okra, Egwusi, Orah, Onugbu are all available. Make The call!"
           />
-          <p>Food is cooked with utmost care, by our professional chefs.</p>
+          <p>Okra, Egwusi, Orah, Onugbu are all available. Make The call!</p>
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://swiperjs.com/demos/images/nature-5.jpg"
-            alt="ghyjuki"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/At_OOMA_Kitchen_lpipor.jpg"
+            alt="Only The Best Chef Will Prepare Your Meals. What Will You Love For Your Next Meal?"
           />
-          <p>Food is cooked with utmost care, by our professional chefs.</p>
+          <p>
+            Only The Best Chef Will Prepare Your Meals. What Will You Love For
+            Your Next Meal?
+          </p>
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://swiperjs.com/demos/images/nature-6.jpg"
-            alt="ghyjuki"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653423/OOMA%20KITCHEN/Slider_2_nvcgds.jpg"
+            alt="Eat Proper, Stay Healthy. OOMA Now At Your Door Step To Help!"
           />
-          <p>Food is cooked with utmost care, by our professional chefs.</p>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-7.jpg"
-            alt="dfgds"
-          />
-          <p>Food is cooked with utmost care, by our professional chefs.</p>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-8.jpg"
-            alt="dfgds"
-          />
-          <p>Food is cooked with utmost care, by our professional chefs.</p>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://swiperjs.com/demos/images/nature-9.jpg"
-            alt="dfgds"
-          />
-          <p>Food is cooked with utmost care, by our professional chefs.</p>
+          <p>Eat Proper, Stay Healthy. OOMA Now At Your Door Step To Help!</p>
         </SwiperSlide>
       </Swiper>
     </main>

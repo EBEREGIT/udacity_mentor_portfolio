@@ -12,8 +12,8 @@ export default function GetApp() {
           </Hidden>
 
           <img
-            src="https://images.anandtech.com/doci/9770/X-T30_DSF5320_678x452.jpg"
-            alt="phones"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/App_Web_ibyaiq.png"
+            alt="Get The App"
           />
         </Grid>
 
@@ -24,7 +24,12 @@ export default function GetApp() {
 
           <GetAppList />
 
-          <Button className="btn_green">Get The App</Button>
+          <Button
+            href="https://play.google.com/store/apps/details?id=com.oma1"
+            className="btn_green"
+          >
+            Get The App
+          </Button>
         </Grid>
       </Grid>
     </>

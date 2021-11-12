@@ -16,28 +16,13 @@ export default function HeroSlider() {
       emulateTouch="true"
       >
         <EachHeroSlide
-          desktopImage="https://res.cloudinary.com/dicmb8odi/image/upload/v1612447665/Desktop_slide_image_1_2_spha1l.png"
+          desktopImage="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/Slider_1_kuxewd.jpg"
           alt="Live Healthier"
         />
 
         <EachHeroSlide
-          desktopImage="https://res.cloudinary.com/dicmb8odi/image/upload/v1612447663/Desktop_slide_2_image_vhhmrs.png"
+          desktopImage="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653423/OOMA%20KITCHEN/Slider_2_nvcgds.jpg"
           alt="Food and Delivery"
-        />
-
-        <EachHeroSlide
-          desktopImage="https://res.cloudinary.com/dicmb8odi/image/upload/v1612447665/Desktop_slide_image_1_2_spha1l.png"
-          alt="Live Healthier"
-        />
-
-        <EachHeroSlide
-          desktopImage="https://res.cloudinary.com/dicmb8odi/image/upload/v1612447663/Desktop_slide_2_image_vhhmrs.png"
-          alt="Food and Delivery"
-        />
-
-        <EachHeroSlide
-          desktopImage="https://res.cloudinary.com/dicmb8odi/image/upload/v1612447665/Desktop_slide_image_1_2_spha1l.png"
-          alt="Live Healthier"
         />
       </Carousel>
     </div>

@@ -6,13 +6,12 @@ export default function Video() {
     <>
       <Grid container id="video">
         <Grid item xs={12} sm={12} md={12} lg={12}>
-          <iframe
-            src="https://www.youtube.com/embed/bV2sg6mmSH8"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <img
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636646371/OOMA%20KITCHEN/WEB_Giv_dhov5s.gif"
+            alt="fleet of dishees"
+            width="100%"
+            height="auto"
+          />
         </Grid>
       </Grid>
     </>
