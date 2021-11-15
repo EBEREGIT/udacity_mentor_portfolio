@@ -18,14 +18,8 @@ export default function Different() {
 
         <EachDifferent
           src="https://res.cloudinary.com/byterestaurant/image/upload/v1636638397/ooma%20web/1_6_sjnxcb.png"
-          heading="Nutrition and health goal settings"
-          body="Achieve more, have your desired body and improved nourishment."
-        />
-
-        <EachDifferent
-          src="https://res.cloudinary.com/byterestaurant/image/upload/v1636638394/ooma%20web/1_8_wxhrok.png"
-          heading="Professional Health service"
-          body="Talk to a registered Dietitian and get a personalized meal plan, based on your unique needs."
+          heading="Super Convenience"
+          body="Enjoy the taste of a fresh-home-cooked meal delivered to you, how you want it, where you want it and when you want it."
         />
 
         <EachDifferent

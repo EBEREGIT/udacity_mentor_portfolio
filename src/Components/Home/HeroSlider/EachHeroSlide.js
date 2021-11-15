@@ -19,10 +19,10 @@ export default function EachHeroSlide(props) {
         {/* hero-text */}
         <Grid container id="content_text">
           <Grid item xs={12} sm={12} md={6} lg={6}>
-            <h1>Live Healthier</h1>
-            <p>Get a personalized meal plan,</p>{" "}
-            <p>with unique recipes that fits your</p>
-            <p>lifestyle.</p>
+            <h1>{props.alt}</h1>
+            <p>{props.p1}</p>
+            <p>{props.p2}</p>
+            <p>{props.p3}</p>
             {/* call to action button */}
             {/* <Button>TAKE A QUIZ</Button> */}
             <Button

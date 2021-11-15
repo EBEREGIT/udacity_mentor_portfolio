@@ -6,14 +6,17 @@ export default function About() {
     <>
       <Grid container id="home_about">
         <Grid item xs={12} sm={12} md={6} lg={6}>
-          <h2>At OOMA Kitchen</h2>
-          <p>we are re-imagining how food is made</p>
-          <p>and delivered</p> <p>to you.</p>
+          <h2>OOMA Kitchen</h2>
+          <p>is your digital personal and family chef. We make varieties of</p>
+          <p>Healthy-good-for-you-foods.</p>
+
+          <h3>We're reimagining how food is made & delivered to you.</h3>
           <section>
             <ul>
-              <li>Cutting edge Technology</li>
-              <li>Quality food</li>
-              <li>Unmatched customer experience</li>
+              <li>Cutting Edge Technology</li>
+              <li>Quality and Healthy Foods</li>
+              <li>Diverse Categories of Meals</li>
+              <li>Super Convenience</li>
             </ul>
           </section>
         </Grid>

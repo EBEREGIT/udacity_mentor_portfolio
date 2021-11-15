@@ -7,15 +7,10 @@ export default function Quiz() {
     <>
       <Grid container id="quiz">
         <Grid item xs={12} sm={12} md={5} lg={5} id="quiz_text">
-          <h2>Achieve a healthier </h2>
-          <h2>lifestyle. Get a </h2>
           <h2>
-            personalized <span>Meal</span>{" "}
+            Eat Right, Live Healthy. Get a personalized <span>Meal plan</span>{" "}
+            that fits your <span>Lifestyle</span>{" "}
           </h2>
-          <h2>
-            and <span>Exercise</span> plan{" "}
-          </h2>
-          <h2>now.</h2>
 
           <Hidden smDown>
             <Button
