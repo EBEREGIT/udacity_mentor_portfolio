@@ -16,7 +16,8 @@ export default function HeroSlider() {
         emulateTouch="true"
       >
         <EachHeroSlide
-          desktopImage="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/Slider_1_kuxewd.jpg"
+          desktopImage="https://res.cloudinary.com/dsepncuj8/image/upload/v1637060538/OOMA%20KITCHEN/New_Slider_1_Web_zprwp3.jpg"
+          mobileImage="https://res.cloudinary.com/dsepncuj8/image/upload/v1637060540/OOMA%20KITCHEN/New_Slider_1_Mobile_qsdwel.jpg"
           alt="OOMA Kitchen"
           p1="Your digital personal and family"
           p2="chef."
@@ -25,6 +26,7 @@ export default function HeroSlider() {
 
         <EachHeroSlide
           desktopImage="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653423/OOMA%20KITCHEN/Slider_2_nvcgds.jpg"
+          mobileImage="https://res.cloudinary.com/dsepncuj8/image/upload/v1637060543/OOMA%20KITCHEN/New_Slider_2_Mobile_fbdq92.jpg"
           alt="Live Healthier"
           p1="Get a personalized meal plan,"
           p2="with unique recipes that fits your"

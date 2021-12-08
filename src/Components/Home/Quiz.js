@@ -24,7 +24,7 @@ export default function Quiz() {
 
         <Grid item xs={12} sm={12} md={7} lg={7} id="quiz_image">
           <img
-            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636654062/OOMA%20KITCHEN/Achieve_a_Healthier_Lifestyle_2_q3ko03.jpg"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1637061275/OOMA%20KITCHEN/ACHIEVE_A_HEALTHIER_LIFESTYLE_pbubdo.jpg"
             alt="Best Soup from Nigeria"
           />
 

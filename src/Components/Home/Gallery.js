@@ -48,40 +48,43 @@ export default function Gallery() {
         navigation={true}
         className="mySwiper"
       >
+        {/* 1 */}
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/kitchen_2_r6inho.jpg"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1638605685/OOMA%20KITCHEN/OOMA_Special_Jollof_Rice_Gallery_ojyk9v.jpg"
             alt="Kitchen Staff Slicing Vegetables"
           />
         </SwiperSlide>
+
+        {/* 2 */}
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/Slider_1_kuxewd.jpg"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1638605685/OOMA%20KITCHEN/OOMA_Special_Salad_Gallery_mbnrpc.jpg"
             alt="Nkwobi in her right sense. Get a taste!"
           />
         </SwiperSlide>
+
+        {/* 3 */}
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/App_Web_ibyaiq.png"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1638605685/OOMA%20KITCHEN/Ukwa_Plantain_and_beef_2_Gallery_daguvd.jpg"
             alt="Your Meal Now In Your Hands. Let's Plan It!"
           />
         </SwiperSlide>
+
+        {/* 4 */}
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636654062/OOMA%20KITCHEN/Achieve_a_Healthier_Lifestyle_2_q3ko03.jpg"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1638605685/OOMA%20KITCHEN/Fisher_Man_Okra_Soup_Gallery_aucy4o.jpg"
             alt="Okra, Egwusi, Orah, Onugbu are all available. Make The call!"
           />
         </SwiperSlide>
+
+        {/* 5 */}
         <SwiperSlide>
           <img
-            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/At_OOMA_Kitchen_lpipor.jpg"
+            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1638605685/OOMA%20KITCHEN/Breakfast_Gallery_lehl6y.jpg"
             alt="Only The Best Chef Will Prepare Your Meals. What Will You Love For Your Next Meal?"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653423/OOMA%20KITCHEN/Slider_2_nvcgds.jpg"
-            alt="Eat Proper, Stay Healthy. OOMA Now At Your Door Step To Help!"
           />
         </SwiperSlide>
       </Swiper>

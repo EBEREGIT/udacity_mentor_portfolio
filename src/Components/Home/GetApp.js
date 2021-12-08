@@ -11,10 +11,19 @@ export default function GetApp() {
             <h2>Yes! There’s more.</h2>
           </Hidden>
 
-          <img
-            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/App_Web_ibyaiq.png"
-            alt="Get The App"
-          />
+          <Hidden smDown>
+            <img
+              src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653422/OOMA%20KITCHEN/App_Web_ibyaiq.png"
+              alt="Get The App"
+            />
+          </Hidden>
+
+          <Hidden mdUp>
+            <img
+              src="https://res.cloudinary.com/dsepncuj8/image/upload/v1636653420/OOMA%20KITCHEN/App_mobile_xxeaj3.png"
+              alt="Get The App"
+            />
+          </Hidden>
         </Grid>
 
         <Grid item xs={12} sm={12} md={5} lg={5} id="get_app_text">

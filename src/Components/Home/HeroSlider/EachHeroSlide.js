@@ -1,12 +1,19 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import Grid from "@material-ui/core/Grid";
+import { Hidden } from "@material-ui/core";
 
 export default function EachHeroSlide(props) {
   return (
     <div className="each-slide" id="first-hero-slider">
       {/* hero-text-image */}
-      <img src={props.desktopImage} alt={props.alt} />
+      <Hidden smDown>
+        <img src={props.desktopImage} alt={props.alt} />
+      </Hidden>
+
+      <Hidden mdUp>
+        <img src={props.mobileImage} alt={props.alt} />
+      </Hidden>
 
       {/* hero-text */}
       <div
