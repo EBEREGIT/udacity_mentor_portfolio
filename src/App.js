@@ -7,20 +7,20 @@ import "./Assets/App.scss";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 // internal imports
-import Home from "./Pages/Home";
 import BackToTop from "./Components/Helpers/BackToTop";
 import PageNotFound from "./Pages/PageNotFound";
 import Footer from "./Components/Home/Footer";
 import Navigation from "./Components/Home/Navigation";
 import TermsOfService from "./Pages/TermsOfService";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import Maintenance from "./Pages/Maintenance";
 
 function App() {
   return (
     <>
       <Navigation />
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Maintenance} />
         <Route exact path="/terms-of-use" component={TermsOfService} />
         <Route exact path="/privacy-policy" component={PrivacyPolicy} />
 

@@ -263,4 +263,38 @@
       padding: 0;
     }
   }
+
+  // maintenance
+  #maintenance {
+    padding: 20px;
+
+    #text {
+      h1 {
+        font-size: 45px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      section {
+        margin-top: 30px;
+        margin-bottom: 70px;
+      }
+    }
+
+    #image {
+      text-align: center;
+      margin-bottom: 50px;
+
+      div {
+        margin-top: 30px;
+
+        img {
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+  }
 }

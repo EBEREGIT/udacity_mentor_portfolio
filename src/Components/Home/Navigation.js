@@ -23,7 +23,12 @@ export default function Navigation() {
 
           {/* nav */}
           <section>
-            <Button>HELP</Button>
+            <Button
+              href="https://play.google.com/store/apps/details?id=com.oma1"
+              variant="outlined"
+            >
+              Get The App
+            </Button>
             <MenuItems />
           </section>
         </Toolbar>

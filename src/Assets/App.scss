@@ -31,7 +31,9 @@ body {
 
   @import "./page_not_found.scss";
 
-  // responsive 
+  @import "./Maintenance.scss";
+
+  // responsive
   @import "./ResponsiveScreens/phone.scss";
 
   @import "./ResponsiveScreens/tab.scss";
