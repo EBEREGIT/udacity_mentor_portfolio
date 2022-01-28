@@ -1,10 +1,10 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import Button from "@material-ui/core/Button";
-import ButtonGroup from "@material-ui/core/ButtonGroup";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import InstagramIcon from "@material-ui/icons/Instagram";
+// import Button from "@material-ui/core/Button";
+// import ButtonGroup from "@material-ui/core/ButtonGroup";
+// import FacebookIcon from "@material-ui/icons/Facebook";
+// import TwitterIcon from "@material-ui/icons/Twitter";
+// import InstagramIcon from "@material-ui/icons/Instagram";
 
 export default function Footer() {
   return (
@@ -12,7 +12,7 @@ export default function Footer() {
       <section className="triangle"></section>
       <Grid container id="footer">
         {/* social_media */}
-        <Grid item xs={12} sm={12} md={6} lg={6} id="social_media">
+        {/* <Grid item xs={12} sm={12} md={6} lg={6} id="social_media">
           <ButtonGroup>
             <Button>
               <FacebookIcon />
@@ -24,11 +24,11 @@ export default function Footer() {
               <InstagramIcon />
             </Button>
           </ButtonGroup>
-        </Grid>
+        </Grid> */}
 
         {/* copy_right */}
-        <Grid item xs={12} sm={12} md={6} lg={6} id="copy_right">
-          © 2021 ooma. All Rights reserved.
+        <Grid item xs={12} sm={12} md={12} lg={12} id="copy_right">
+          © 2022 OOMA Technologies. All Rights reserved.
         </Grid>
       </Grid>
     </>
