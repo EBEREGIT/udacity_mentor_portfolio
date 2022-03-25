@@ -1,0 +1,31 @@
+#footer_v2 {
+  padding: 20px;
+  background-color: black;
+  color: #838383;
+  font-family: $Montserrat;
+
+  #contact{
+    padding-left: 40px;
+  }
+
+  .footer_content {
+    h3 {
+      font-weight: 700;
+      font-size: 32px;
+      letter-spacing: 0.02em;
+    }
+
+    aside {
+      a {
+        color: #838383;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 28px;
+
+        span {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

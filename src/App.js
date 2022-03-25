@@ -12,6 +12,7 @@ import PageNotFound from "./Pages/PageNotFound";
 import TermsOfService from "./Pages/TermsOfService";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import HomeV2 from "./Pages/HomeV2";
+import Footer from "./Components/HomeV2/Footer";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         <Route exact path="*" component={PageNotFound} />
       </Switch>
 
-      {/* <Footer /> */}
+      <Footer />
 
       {/* WhatsApp icon */}
       <a
