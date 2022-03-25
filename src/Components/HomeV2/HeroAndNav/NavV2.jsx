@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 export default function NavV2() {
   const [scrolled, setScrolled] = useState(false);

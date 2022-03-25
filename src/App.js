@@ -9,12 +9,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 // internal imports
 import BackToTop from "./Components/Helpers/BackToTop";
 import PageNotFound from "./Pages/PageNotFound";
-import Footer from "./Components/Home/Footer";
-import Navigation from "./Components/Home/Navigation";
 import TermsOfService from "./Pages/TermsOfService";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import HomeV2 from "./Pages/HomeV2";
-import Home from "./Pages/Home";
 
 function App() {
   return (
