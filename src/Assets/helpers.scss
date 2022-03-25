@@ -10,6 +10,7 @@ $Montserrat: 'Montserrat', sans-serif;
 // colors
 $site_black: #303030;
 $site_green: #05944f;
+$site_gray: #838383;
 
 .btn_green {
   background: $site_green;
@@ -58,4 +59,8 @@ $site_green: #05944f;
     height: 500px;
     background-color: $site_green;
   }
+}
+
+.send{
+  color: white;
 }

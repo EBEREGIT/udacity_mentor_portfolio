@@ -1,10 +1,10 @@
 #footer_v2 {
   padding: 20px;
   background-color: black;
-  color: #838383;
+  color: $site_gray;
   font-family: $Montserrat;
 
-  #contact{
+  #contact {
     padding-left: 40px;
   }
 
@@ -17,7 +17,7 @@
 
     aside {
       a {
-        color: #838383;
+        color: $site_gray;
         text-decoration: none;
         font-weight: 600;
         font-size: 28px;
@@ -26,6 +26,54 @@
           margin-right: 10px;
         }
       }
+
+      input,
+      button {
+        height: 50px;
+        border-radius: 5px;
+      }
+
+      input {
+        background: #ffffff;
+        width: 80%;
+        border: 1px solid white;
+        outline: none;
+
+        &::placeholder {
+          font-weight: 400;
+          font-size: 24px;
+          color: $site_gray;
+        }
+      }
+
+      button {
+        margin-left: -20%;
+        height: 55px;
+        background: $site_green;
+        width: 20%;
+        border: 1px solid $site_green;
+      }
+    }
+  }
+
+  #lower_footer {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      padding: 10px;
+      font-weight: 800;
+      font-size: 24px;
+    }
+
+    h3 {
+      padding: 10px;
+      font-weight: 300;
+      font-size: 24px;
+      color: #c4c4c4;
     }
   }
 }

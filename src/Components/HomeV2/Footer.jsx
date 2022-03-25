@@ -21,6 +21,11 @@ export default function Footer() {
         <Grid item xs={12} sm={12} md={4} lg={4}>
           <Newsletter />
         </Grid>
+
+        <Grid item xs={12} sm={12} md={12} lg={12} id="lower_footer">
+          <h3>Proudly powered by</h3>
+          <h1>OOMA TECHNOLOGIES</h1>
+        </Grid>
       </Grid>
     </>
   );
