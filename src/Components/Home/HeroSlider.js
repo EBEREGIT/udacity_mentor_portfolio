@@ -12,8 +12,9 @@ export default function HeroSlider() {
         showStatus="false"
         stopOnHover="true"
         useKeyboardArrows="true"
-        swipeable="true"
+        swipeable="false"
         emulateTouch="true"
+        animationHandler="fade"
       >
         <EachHeroSlide
           desktopImage="https://res.cloudinary.com/dsepncuj8/image/upload/v1637060538/OOMA%20KITCHEN/New_Slider_1_Web_zprwp3.jpg"

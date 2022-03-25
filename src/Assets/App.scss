@@ -33,6 +33,10 @@ body {
 
   @import "./Maintenance.scss";
 
+  // v2
+  @import "./HomeV2/hero_nav.scss";
+  @import "./HomeV2/survey.scss";
+
   // responsive
   @import "./ResponsiveScreens/phone.scss";
 

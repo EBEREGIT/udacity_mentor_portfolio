@@ -1,0 +1,93 @@
+#hero_nav {
+  font-family: $poppins;
+  background-image: url("https://res.cloudinary.com/dsepncuj8/image/upload/v1637065400/OOMA%20KITCHEN/OOMA_GIF_NEW_my2aff.gif");
+  height: 800px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-dodge;
+  background-color: rgba(0, 0, 0, 0.38);
+
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+    img {
+      width: 60px;
+      height: 50px;
+    }
+
+    aside {
+      a {
+        font-weight: 300;
+        font-size: 24px;
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 50px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .nav_scroll {
+    background-color: white;
+
+    aside {
+      a {
+        color: #1f1f1f !important;
+      }
+    }
+  }
+
+  #hero {
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    margin: 50px 300px;
+    padding-top: 20px;
+
+    .carousel-status,
+    .thumbs-wrapper {
+      display: none;
+      visibility: hidden;
+    }
+
+    p {
+      font-family: $lato;
+      font-weight: 700;
+      font-size: 20px;
+      margin: 0;
+    }
+
+    aside {
+      margin-top: 80px;
+
+      h1 {
+        font-family: "Singo";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 100px;
+        margin: 0;
+        margin-bottom: 10px;
+
+        span {
+          color: #889a1a;
+        }
+      }
+    }
+  }
+}
