@@ -1,14 +1,14 @@
 import React from "react";
+import Cards from "../Components/HomeV2/Cards";
 import FamilyMP from "../Components/HomeV2/FamilyMP";
 import HeroAndNav from "../Components/HomeV2/HeroAndNav";
-import Survey from "../Components/HomeV2/Survey";
 
 export default function HomeV2() {
   return (
     <div>
       <HeroAndNav />
       <FamilyMP />
-      <Survey />
+      <Cards />
     </div>
   );
 }

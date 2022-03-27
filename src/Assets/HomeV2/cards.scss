@@ -1,0 +1,87 @@
+#cards {
+  text-align: center;
+  margin: 150px 0;
+  font-family: $Montserrat;
+
+  h1,
+  h2,
+  h3 {
+    margin: 0;
+  }
+
+  #healthy,
+  #ingredients,
+  #kitchen {
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #healthy {
+    background-image: url("https://res.cloudinary.com/dsepncuj8/image/upload/v1648390034/Figma%20Wbsite%20Images/healthy_food_kjdgcb.png");
+    padding-top: 15%;
+    color: #f0ff96;
+
+    section {
+      margin-top: 20px;
+    }
+
+    h1,
+    h3 {
+      margin: 0;
+      font-size: 45px;
+    }
+
+    h1 {
+      font-weight: 600;
+    }
+
+    h3 {
+      font-weight: 500;
+    }
+  }
+
+  #ingredients {
+    margin-top: 10%;
+
+    img {
+      width: 100%;
+      height: auto;
+      margin-top: 30px;
+    }
+
+    section {
+      margin-top: 40%;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 42px;
+      color: #ffe197;
+    }
+
+    background: #493400;
+  }
+
+  #kitchen {
+    background-image: url("https://res.cloudinary.com/dsepncuj8/image/upload/v1648391134/Figma%20Wbsite%20Images/KITCHEN_HYGINE_aaxlr7.png");
+    color: white;
+    padding-top: 15%;
+    margin-top: 5%;
+
+    section{
+      margin-top: 30px;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 64px;
+    }
+
+    h3{
+      font-weight: 400;
+font-size: 48px;
+    }
+  }
+}
