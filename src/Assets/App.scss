@@ -41,6 +41,9 @@ body {
   @import "./HomeV2/cards.scss";
   @import "./HomeV2/get_app_v2.scss";
 
+  // responsive v2
+  @import "./HomeV2/Responsive/tab.scss";
+
   // responsive
   @import "./ResponsiveScreens/phone.scss";
 

@@ -1,5 +1,7 @@
+import { Hidden } from "@material-ui/core";
 import React, { useContext } from "react";
 import { HelperContext } from "../../../Context/Helper";
+import NavMobile from "./NavMobile";
 
 export default function NavV2() {
   const { scrolled } = useContext(HelperContext);
@@ -19,9 +21,15 @@ export default function NavV2() {
         </a>
 
         <aside>
-          <a href="/">Meal plans</a>
-          <a href="/">Our meals</a>
-          <a href="/">Contact us</a>
+          <Hidden smDown>
+            <a href="/">Meal plans</a>
+            <a href="/">Our meals</a>
+            <a href="/">Contact us</a>
+          </Hidden>
+
+          <Hidden mdUp>
+            <NavMobile />
+          </Hidden>
         </aside>
       </section>
     </>

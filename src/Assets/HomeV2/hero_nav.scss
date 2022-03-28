@@ -90,3 +90,23 @@
     }
   }
 }
+
+#mobile_nav {
+  p {
+    margin: 20px 50px;
+  }
+  a {
+    font-weight: 300;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.MuiDrawer-paper {
+  width: 50%;
+}
