@@ -3,7 +3,7 @@
 
   // hero and nav
   #hero_nav {
-    height: 700px;
+    height: 800px;
 
     #hero {
       margin: 10px;
@@ -16,7 +16,7 @@
         margin-top: 30px;
 
         h1 {
-          font-size: 80px;
+          font-size: 50px;
         }
       }
     }
@@ -109,11 +109,27 @@
         font-size: 22px;
       }
     }
+
+    #mobile_phone{
+      width: 100%;
+
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
   }
 
   // cards
   #cards {
-    margin: 10px 0;
+    margin: 10px 0;  
+    
+    #healthy,
+    #ingredients,
+    #kitchen {
+      height: 700px;
+      background-size: cover;
+    }
 
     #healthy {
       h1,

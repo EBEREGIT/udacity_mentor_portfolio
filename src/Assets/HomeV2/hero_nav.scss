@@ -1,7 +1,7 @@
 #hero_nav {
   font-family: $poppins;
   background-image: url("https://res.cloudinary.com/dsepncuj8/image/upload/v1648451183/Figma%20Wbsite%20Images/ezgif.com-gif-maker_1_FOR_UPLOAD_xm3knq.gif");
-  height: 800px;
+  height: 900px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,7 +51,6 @@
 
   #hero {
     text-align: center;
-    letter-spacing: 0.04em;
     color: #ffffff;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(40px);
@@ -73,15 +72,14 @@
     }
 
     aside {
-      margin-top: 80px;
+      margin-top: 60px;
 
       h1 {
-        font-family: "Singo";
+        font-family: $singo;
         font-style: normal;
         font-weight: 600;
         font-size: 100px;
         margin: 0;
-        margin-bottom: 10px;
 
         span {
           color: #889a1a;
