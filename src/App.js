@@ -13,8 +13,14 @@ import TermsOfService from "./Pages/TermsOfService";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import HomeV2 from "./Pages/HomeV2";
 import Footer from "./Components/HomeV2/Footer";
+import { useContext } from "react";
+import { HelperContext } from "./Context/Helper";
 
 function App() {
+  const { checkScroll } = useContext(HelperContext);
+
+  checkScroll();
+
   return (
     <>
       {/* <Navigation /> */}

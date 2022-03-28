@@ -15,8 +15,8 @@ export default function Contact() {
         title2={"08067723579"}
         title3={"support@ooma.kitchen"}
         link1="https://wa.me/2348067723579"
-        link2="/"
-        link3="/"
+        link2="tel:2348101234567"
+        link3="mailto:support@ooma.kitchen"
       />
     </>
   );

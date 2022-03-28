@@ -47,7 +47,7 @@ export default function FamilyMP() {
   );
 }
 
-function Content({ src, heading, text1, text2, text3 }) {
+export function Content({ src, heading, text1, text2, text3 }) {
   return (
     <Grid item xs={12} sm={12} md={4} lg={4} id="family_mp_content">
       <section>

@@ -3,13 +3,13 @@ $lato: "Lato", sans-serif;
 $poppins: "Poppins", sans-serif;
 $permanentMarker: "Permanent Marker", cursive;
 $openSans: "Open Sans", sans-serif;
-$VarelaRound: 'Varela Round', sans-serif;
-$singo: 'Oswald', sans-serif;
-$Montserrat: 'Montserrat', sans-serif;
+$VarelaRound: "Varela Round", sans-serif;
+$singo: "Oswald", sans-serif;
+$Montserrat: "Montserrat", sans-serif;
 
 // colors
 $site_black: #303030;
-$site_green: #05944f;
+$site_green: #249421;
 $site_gray: #838383;
 
 .btn_green {
@@ -18,6 +18,9 @@ $site_gray: #838383;
   color: white;
   padding: 10px 20px;
   margin-top: 50px;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.02em;
 
   &:hover {
     background-color: white;
@@ -53,7 +56,7 @@ $site_gray: #838383;
 
   iframe {
     margin: 0;
-    padding: 0 0 0 22% ;
+    padding: 0 0 0 22%;
     border: none;
     width: 100%;
     height: 500px;
@@ -61,6 +64,6 @@ $site_gray: #838383;
   }
 }
 
-.send{
+.send {
   color: white;
 }

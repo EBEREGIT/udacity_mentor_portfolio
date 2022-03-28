@@ -1,0 +1,50 @@
+#get_app_v2 {
+  background-image: url("https://res.cloudinary.com/dsepncuj8/image/upload/v1648390210/Figma%20Wbsite%20Images/Kitchen_background_mt3xnv.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px 0 30px 30px;
+  font-family: $Montserrat;
+  color: #ffffff;
+
+  h3,
+  h1 {
+    margin: 0;
+  }
+
+  #get_app_content {
+    padding-top: 150px;
+
+    h3 {
+      font-weight: 300;
+      font-size: 40px;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 48px;
+    }
+
+    section {
+      margin: 50px 0;
+    }
+  }
+
+  #get_app_options {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+
+    h3 {
+      font-weight: 700;
+      font-size: 24px;
+    }
+  }
+
+  button{
+    font-weight: 400;
+    font-size: 32px;
+  }
+}

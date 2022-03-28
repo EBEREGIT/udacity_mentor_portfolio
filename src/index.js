@@ -9,13 +9,16 @@ import "./Assets/index.css";
 // internal impports
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import HelperContextProvider from "./Context/Helper";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  </BrowserRouter>,
+  <HelperContextProvider>
+    <BrowserRouter>
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    </BrowserRouter>
+  </HelperContextProvider>,
   document.getElementById("root")
 );
 

@@ -1,18 +1,8 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
+import { HelperContext } from "../../../Context/Helper";
 
 export default function NavV2() {
-  const [scrolled, setScrolled] = useState(false);
-
-  window.addEventListener("scroll", function (event) {
-    // To listen for event
-    event.preventDefault();
-
-    if (window.scrollY > 100) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
-  });
+  const { scrolled } = useContext(HelperContext);
 
   return (
     <>
