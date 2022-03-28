@@ -16,12 +16,14 @@ export default function GetApp() {
 
           <Options />
 
-          <Button
-            href="https://play.google.com/store/apps/details?id=com.oma1"
-            className="btn_green"
-          >
-            Get The App
-          </Button>
+          <section id="btn">
+            <Button
+              href="https://play.google.com/store/apps/details?id=com.oma1"
+              className="btn_green"
+            >
+              Get The App
+            </Button>
+          </section>
         </Grid>
 
         <Grid item xs={12} sm={12} md={5} lg={5} id="mobile_phone">

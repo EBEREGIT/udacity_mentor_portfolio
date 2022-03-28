@@ -1,6 +1,195 @@
 @include media(">phone", "<=tablet") {
-    // background-color: red !important;
+  // background-color: red !important;
 
-    
+  // hero and nav
+  #hero_nav {
+    height: 700px;
+
+    #hero {
+      margin: 10px;
+
+      p {
+        font-size: 16px;
+      }
+
+      aside {
+        margin-top: 30px;
+
+        h1 {
+          font-size: 80px;
+        }
+      }
+    }
   }
-  
+
+  // family
+  #family_mp {
+    #family_mp_top {
+      img {
+        height: 200px;
+        width: 200px;
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+    #family_mp_content {
+      img {
+        height: 100px;
+        width: 100px;
+      }
+
+      section {
+        padding: 30px 5px;
+      }
+
+      aside {
+        margin-top: 10px;
+
+        h3 {
+          font-size: 25px;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  // get app v2
+  #get_app_v2 {
+    padding: 0 0 30px 30px;
+
+    h3,
+    h1 {
+      margin: 0;
+    }
+
+    #get_app_content {
+      padding-top: 70px;
+
+      h3 {
+        font-size: 30px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      section {
+        margin: 30px 0;
+      }
+    }
+
+    #get_app_options {
+      text-align: center;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      h3 {
+        font-size: 15px;
+      }
+    }
+
+    #btn {
+      text-align: center;
+
+      .btn_green {
+        margin-top: 10px;
+        font-size: 22px;
+      }
+    }
+  }
+
+  // cards
+  #cards {
+    margin: 10px 0;
+
+    #healthy {
+      h1,
+      h3 {
+        margin: 0;
+        font-size: 35px;
+      }
+    }
+
+    #ingredients {
+      margin-top: 0%;
+
+      section {
+        margin-top: 30%;
+      }
+
+      h3 {
+        font-size: 32px;
+        color: #ffe197;
+      }
+    }
+
+    #kitchen {
+      margin-top: 0;
+
+      section {
+        margin-top: 20px;
+      }
+
+      h1 {
+        font-size: 54px;
+      }
+
+      h3 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  // footer
+  #footer_v2 {
+    #contact {
+      padding-left: 0px;
+    }
+
+    .footer_content {
+      h3 {
+        font-size: 28px;
+      }
+
+      aside {
+        a {
+          font-size: 25px;
+        }
+      }
+    }
+
+    #lower_footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      h1, h3{
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 16px;
+        margin-top: 17px;
+        padding-left: 5px;
+      }
+
+      h3 {
+        font-size: 16px;
+      }
+    }
+  }
+}
