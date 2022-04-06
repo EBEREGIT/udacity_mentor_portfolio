@@ -12,9 +12,7 @@ export default function NavV2() {
         <a href="/">
           <img
             src={
-              scrolled
-                ? "https://play-lh.googleusercontent.com/IqrjpOUFUeWIzSDh6CvMz1Ad-jSAri04-M6dftiIqcMSo4jwaSlYwSwUU8lJR3FrIUw=s360-rw"
-                : "https://res.cloudinary.com/byterestaurant/image/upload/v1638041535/ooma%20web/ooma_logo_3_hjbssd.png"
+              "https://www.investopedia.com/thmb/NRuWnsAjUre5v7C4MgIbb9hef-Y=/2121x1414/filters:fill(auto,1)/PortfolioAnalysisforBeginners-5a011cc7ec2f64003784666f.jpg"
             }
             alt="site identity"
           />
@@ -22,9 +20,11 @@ export default function NavV2() {
 
         <aside>
           <Hidden smDown>
-            <a href="/">Meal plans</a>
-            <a href="/">Our meals</a>
-            <a href="/">Contact us</a>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/portfolio">Portfolio</a>
+            <a href="/contact">Contact</a>
+            <a href="/resume">Resume</a>
           </Hidden>
 
           <Hidden mdUp>

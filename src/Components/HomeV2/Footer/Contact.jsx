@@ -11,12 +11,12 @@ export default function Contact() {
         icon1={<ImWhatsapp />}
         icon2={<BiPhoneCall />}
         icon3={<ImEnvelop />}
-        title1={"08067723579"}
-        title2={"08067723579"}
-        title3={"support@ooma.kitchen"}
-        link1="https://wa.me/2348067723579"
-        link2="tel:2348101234567"
-        link3="mailto:support@ooma.kitchen"
+        title1={"08011223344"}
+        title2={"08055667788"}
+        title3={"samsoneberenjoku@gmail.com"}
+        link1="https://wa.me/2348011223344"
+        link2="tel:2348055667788"
+        link3="mailto:samsoneberenjoku@gmail.com"
       />
     </>
   );

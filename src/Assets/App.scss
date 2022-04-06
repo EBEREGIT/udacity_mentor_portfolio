@@ -7,38 +7,12 @@ html {
 body {
   @import "./helpers.scss";
 
-  @import "./Home/navigation.scss";
-
-  @import "./Home/hero-slider.scss";
-
-  @import "./Home/home_about.scss";
-
-  @import "./Home/different.scss";
-
-  @import "./Home/quiz.scss";
-
-  @import "./Home/get_app.scss";
-
-  @import "./Home/video.scss";
-
   @import "./Home/newsletter.scss";
-
-  @import "./Home/footer.scss";
-
-  @import "./Home/home_gallery.scss";
-
-  @import "./WhatsApp.scss";
-
-  @import "./page_not_found.scss";
-
-  @import "./Maintenance.scss";
 
   // v2
   @import "./HomeV2/hero_nav.scss";
-  @import "./HomeV2/survey.scss";
   @import "./HomeV2/footer_v2.scss";
   @import "./HomeV2/family_mp.scss";
-  @import "./HomeV2/cards.scss";
   @import "./HomeV2/get_app_v2.scss";
 
   // responsive v2

@@ -32,13 +32,19 @@ export default function NavMobile(props) {
       <Drawer anchor={"right"} open={state} onClose={toggleDrawer(false)}>
         <section id="mobile_nav">
           <p>
-            <a href="/">Meal plans</a>
+            <a href="/">Home</a>
           </p>
           <p>
-            <a href="/">Our meals</a>
+            <a href="/about">About</a>
           </p>
           <p>
-            <a href="/">Contact us</a>
+            <a href="/portfolio">Portfolio</a>
+          </p>
+          <p>
+            <a href="/contact">Contact</a>
+          </p>
+          <p>
+            <a href="/resume">Resume</a>
           </p>
         </section>
       </Drawer>

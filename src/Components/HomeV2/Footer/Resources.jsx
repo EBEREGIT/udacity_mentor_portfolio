@@ -6,12 +6,12 @@ export default function Resources() {
     <>
       <Content
         heading={"Resources"}
-        title1={"Home"}
-        title2={"Meal plans"}
-        title3={"About Us"}
-        link1="/"
-        link2="/"
-        link3="/"
+        title1={"Resume"}
+        title2={"Contact"}
+        title3={"About"}
+        link1="/resume"
+        link2="/contact"
+        link3="/about"
       />
     </>
   );

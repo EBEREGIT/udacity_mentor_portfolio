@@ -7,49 +7,42 @@ export default function FamilyMP() {
       <Grid container id="family_mp">
         <Grid item xs={12} sm={12} md={12} lg={12} id="family_mp_top">
           <img
-            src="https://res.cloudinary.com/dsepncuj8/image/upload/v1648390391/Figma%20Wbsite%20Images/Family_Meal_Planning_ods1ik.png"
-            alt="family MP"
+            src="https://www.smartserve.co/wp-content/uploads/2018/03/portfolio-stock.jpg"
+            alt="portfolio"
           />
-          <h1>Family meal planning</h1>
-          <h2>UNMATCHED CUSTOMER EXPERIENCE</h2>
+          <h1>Portfolio</h1>
+          <h2>Checkout some of my works...</h2>
         </Grid>
 
         <Content
           src={
-            "https://res.cloudinary.com/dsepncuj8/image/upload/v1648390378/Figma%20Wbsite%20Images/Create_a_meal_plan_hlwkjw.png"
+            "https://res.cloudinary.com/dunksyqjj/image/upload/v1597094132/LogoMakr_6cGYpQ_h58asa.png"
           }
-          heading={"Create a meal plan"}
-          text1={"Select meals of your "}
-          text2={"choice to create a plan."}
+          heading={"Ideas Repository"}
+          text1={"Recruiters Share ideas "}
+          text2={"Junior Techies Build ideas"}
+          text3={"Everyone is satisfied"}
+          link={"https://ideas-repo.netlify.app/"}
         />
 
         <Content
           src={
-            "https://res.cloudinary.com/dsepncuj8/image/upload/v1648390384/Figma%20Wbsite%20Images/take_a_survey_2_cim3eo.png"
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJBLYKssbS6gDB5QltcECfLwYG3k1rM31wPw&usqp=CAU"
           }
-          heading={"Take a survey"}
-          text1={"Our team of professional "}
-          text2={"Dietiticians will create a "}
-          text3={"plan that suits your lifestyle."}
-        />
-
-        <Content
-          src={
-            "https://res.cloudinary.com/dsepncuj8/image/upload/v1648393998/Figma%20Wbsite%20Images/Create_a_Recipe-removebg-preview_dhig3p.png"
-          }
-          heading={"Create your own recipe"}
-          text1={"Describe the meals you "}
-          text2={"want and how it should"}
-          text3={" be prepared."}
+          heading={"Covid-19 Tracker"}
+          text1={"Learn About the virus "}
+          text2={"Get the right numbers every 15 minutes  "}
+          text3={"Get the most trending news about it"}
+          link={"https://covid19-stat.netlify.app/"}
         />
       </Grid>
     </>
   );
 }
 
-export function Content({ src, heading, text1, text2, text3 }) {
+export function Content({ src, heading, text1, text2, text3, link }) {
   return (
-    <Grid item xs={12} sm={12} md={4} lg={4} id="family_mp_content">
+    <Grid item xs={12} sm={12} md={6} lg={6} id="family_mp_content">
       <section>
         <img src={src} alt={heading} />
 
@@ -58,6 +51,9 @@ export function Content({ src, heading, text1, text2, text3 }) {
           <p>{text1}</p>
           <p>{text2}</p>
           <p>{text3}</p>
+          <p>
+            <a href={link}>See More Here...</a>
+          </p>
         </aside>
       </section>
     </Grid>
