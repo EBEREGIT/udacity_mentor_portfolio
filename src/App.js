@@ -14,6 +14,7 @@ import { HelperContext } from "./Context/Helper";
 import FamilyMP from "./Components/HomeV2/FamilyMP";
 import NewsLetter from "./Components/Home/NewsLetter";
 import GetApp from "./Components/HomeV2/GetApp";
+import NavV2 from "./Components/HomeV2/HeroAndNav/NavV2";
 
 function App() {
   const { checkScroll } = useContext(HelperContext);
@@ -22,6 +23,8 @@ function App() {
 
   return (
     <>
+    <NavV2 />
+    
       {/* <Navigation /> */}
       <Switch>
         <Route exact path="/" component={HomeV2} />

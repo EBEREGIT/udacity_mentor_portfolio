@@ -1,5 +1,6 @@
 import { Grid } from "@material-ui/core";
 import React from "react";
+import Resume from "../../Pages/Resume";
 
 export default function GetApp() {
   return (
@@ -19,11 +20,13 @@ export default function GetApp() {
 
         <Grid item xs={12} sm={12} md={5} lg={5} id="mobile_phone">
           <img
-            src="https://kofahiinc.files.wordpress.com/2018/11/86147094-hand-drawn-word-about-me.jpg"
+            src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bps6eh20wrilyxrqntro.png"
             alt="about me"
           />
         </Grid>
       </Grid>
+
+      <Resume />
     </>
   );
 }

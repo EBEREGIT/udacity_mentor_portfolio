@@ -16,6 +16,8 @@ export default function NewsLetter() {
         <Grid item xs={12} sm={12} md={6} lg={6} id="newsletter_form">
           <h2>Get in Touch</h2>
 
+          <p>samsoneberenjoku@gmail.com</p>
+
           <form>
             <TextField
               label="Enter e-mail address"

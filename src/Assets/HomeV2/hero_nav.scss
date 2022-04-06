@@ -7,47 +7,7 @@
   background-size: cover;
   background-blend-mode: color-dodge;
   background-color: rgba(0, 0, 0, 0.38);
-
-  #nav {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-
-    img {
-      width: 60px;
-      height: 50px;
-    }
-
-    aside {
-      a {
-        font-weight: 300;
-        font-size: 24px;
-        color: #ffffff;
-        text-decoration: none;
-        margin-left: 50px;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-
-  .nav_scroll {
-    background-color: white;
-
-    aside {
-      a {
-        color: #1f1f1f !important;
-      }
-    }
-  }
+  padding-top: 100px;
 
   #hero {
     text-align: center;
@@ -55,7 +15,7 @@
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(40px);
     border-radius: 10px;
-    margin: 50px 300px;
+    margin: 0px 300px;
     padding-top: 20px;
 
     .carousel-status,
@@ -108,4 +68,45 @@
 
 .MuiDrawer-paper {
   width: 70%;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+
+  img {
+    width: 60px;
+    height: 50px;
+  }
+
+  aside {
+    a {
+      font-weight: 300;
+      font-size: 24px;
+      color: #1f1f1f;
+      text-decoration: none;
+      margin-left: 50px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.nav_scroll {
+  background-color: white;
+
+  aside {
+    a {
+      color: #1f1f1f !important;
+    }
+  }
 }
